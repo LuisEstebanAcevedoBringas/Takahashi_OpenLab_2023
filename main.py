@@ -47,7 +47,7 @@ while True:
                         playerMove = 3
 
                     randomNumber = random.randint(1, 3)
-                    imgAI = cv2.imread(f'./Picture{randomNumber}.png', cv2.IMREAD_UNCHANGED)
+                    imgAI = cv2.imread(f'./Resources/Picture{randomNumber}.png', cv2.IMREAD_UNCHANGED)
                     imgBG = cvzone.overlayPNG(imgBG, imgAI, (185, 260))
 
                     # Player Wins
